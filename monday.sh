@@ -45,3 +45,4 @@ setEnvironment
 iDoStuff
 cleanEnvironment
 iDoStuff
+echo 'done'
