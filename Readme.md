@@ -1,3 +1,10 @@
+## Implementating the check for git status is clean on all branches
+```bash
+git clone https://github.com/MichaelDimmitt/your-monday-gem-update.git
+cd your-monday-gem-update
+ruby monday.rb
+```
+
 ## Lets start with lessons learned
 
 # Lesson 3, Still Work in progress please go to next [section](https://github.com/MichaelDimmitt/your-monday-gem-update/tree/project-plan-and-notes#lesson-2-you-can-format-gems-brought-in-through-generators).
