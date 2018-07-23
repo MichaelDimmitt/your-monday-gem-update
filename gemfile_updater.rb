@@ -6,6 +6,7 @@ class GemfileUpdater
     ## careful will log what it is to do string, stored in .temp/log.txt
     ## then store the current gemfile in the .temp directory
     ## if a gemfile exists it will store the diff from curr gemfile to next gemfile as a new file in .temp directory.
+    puts "#{whatToDoString} was called"
 
   end
   def updateRailsCarefully
