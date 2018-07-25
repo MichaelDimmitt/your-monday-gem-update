@@ -7,6 +7,16 @@ ruby monday.rb
 
 ## Lets start with lessons learned
 
+
+# Lesson 4, focus on dependencies? multiple gemfile commits for monday update?
+
+#### Instead of one gemfile commit; each time you update a gem you can commit that diff to the gemfile and capture the dependencies that changed for that application.
+
+#### Example, if you solely, `bundle upgrade rails,` then commit the diff to the gemfile and push the change.
+
+#### These changes could possibly be committed automatically one at a time  automatically generating the commit and push to a branch called track-gemfile-individually. But at the same time your main branch would only need a single gemfile commit.
+
+
 # Lesson 3, Still Work in progress please go to next [section](https://github.com/MichaelDimmitt/your-monday-gem-update/tree/project-plan-and-notes#lesson-2-you-can-format-gems-brought-in-through-generators).
 ## plan for project:
 0) I need an experiments folder where I put some gems
